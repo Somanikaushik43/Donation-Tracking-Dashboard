@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* glow shadows and helpers */
+@layer utilities {
+  .shadow-glow-sm { box-shadow: 0 8px 24px rgba(99,102,241,0.08); }
+  .shadow-glow-lg { box-shadow: 0 30px 80px rgba(99,102,241,0.08); }
+}
+
+/* base font */
+html { font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
